@@ -1,3 +1,4 @@
-torch==1.4.0
-Pillow==7.1.2
-torchvision==0.2.1
+torch==2.11.0+cu126
+Pillow==12.1.1
+torchvision==0.26.0+cu126
+#pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
