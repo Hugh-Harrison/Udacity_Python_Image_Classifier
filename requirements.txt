@@ -3,9 +3,9 @@
 torch
 torchvision
 Pillow==12.1.1
-#Requirements install should work, but bellow link will can also be used to install torch and torchvision together if not
+#Requirements install should work, but below link will can also be used to install torch and torchvision together if not
 #pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu126
-#Original library versions for project for reference
+#Original project used python 3.6 and the following versions of torch, torchvision, and Pillow. These versions may not work with the latest version of python, but are included here for reference.
 #torch==1.4.0
 #Pillow==7.1.2
 #torchvision==0.2.1
