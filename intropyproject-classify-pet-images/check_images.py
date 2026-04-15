@@ -49,6 +49,8 @@ def main():
     # the collection of these command line arguments from the function call as
     # the variable in_arg
     in_arg = get_input_args()
+    
+    
 
     # Function that checks command line arguments using in_arg  
     check_command_line_arguments(in_arg)
@@ -61,7 +63,9 @@ def main():
     #             get_pet_labels(in_arg.dir)
     # This function creates the results dictionary that contains the results, 
     # this dictionary is returned from the function call as the variable results
-    results = get_pet_labels(None)
+
+    results = get_pet_labels(in_arg.dir)
+    
 
     # Function that checks Pet Images in the results Dictionary using results    
     check_creating_pet_image_labels(results)
