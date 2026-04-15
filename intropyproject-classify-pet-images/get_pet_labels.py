@@ -40,8 +40,7 @@ def get_pet_labels(image_dir):
       List. The list contains for following item:
          index 0 = pet image label (string)
     """
-    # Replace None with the results_dic dictionary that you created with this
-    # function
+    
     results_dic = dict()
     for filename in listdir(image_dir):
         if filename.startswith("."):
@@ -58,6 +57,6 @@ def get_pet_labels(image_dir):
         else:
             print("** Warning: Duplicate files exist in directory:", filename)
     
-        
+    #print("results_dic", results_dic)      
 
     return results_dic
