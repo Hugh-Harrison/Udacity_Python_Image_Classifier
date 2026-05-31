@@ -82,8 +82,8 @@ def adjust_results4_isadog(results_dic, dogfile):
             #           from the variable line  
             #
             # Process line by striping newline from line
-            if "\n" in line:
-                line.rstrip()
+            if line.endswith("\n"):
+                line = line.rstrip("\n")
             
 
             # TODO: 4b. REPLACE pass with CODE to check if the dogname(line) 
